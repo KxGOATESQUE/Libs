@@ -1458,7 +1458,7 @@ function OrionLib:MakeWindow(WindowConfig)
                 local RainbowCheckbox = Create("TextButton", {
                     Text = "Rainbow",
                     Size = UDim2.new(0, 100, 0, 20),
-                    Position = UDim2.new(1, -110, 0.5, -10), -- Position adjusted
+                    Position = UDim2.new(1, -110, 0.5, 0), -- Position adjusted
                     AnchorPoint = Vector2.new(1, 0.5),
                     BackgroundColor3 = Color3.fromRGB(50, 50, 50),
                     TextColor3 = Color3.fromRGB(255, 255, 255)
